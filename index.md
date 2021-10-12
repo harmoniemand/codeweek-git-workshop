@@ -1,37 +1,138 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/harmoniemand/codeweek-git-workshop/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# Git Workshop
 
-### Markdown
+---
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+---
 
-# Header 1
-## Header 2
-### Header 3
+## Installation
 
-- Bulleted
-- List
+    https://git-scm.com/
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
+---
 
-[Link](url) and ![Image](src)
-```
+## Identity
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+    git config --global user.name "joni"
+    git config --global user.email "git@hmnd.de"
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/harmoniemand/codeweek-git-workshop/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+---
 
-### Support or Contact
+## Repositories
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+----
+
+![](https://hmd.hmnd.de/uploads/upload_10f20888c67452fa4af7be070863bef9.png)
+
+----
+
+    git init
+
+---
+
+## Status
+
+    git status
+
+----
+
+![](https://hmd.hmnd.de/uploads/upload_fd063f3345272d84ebe5afd7c23bde3e.png)
+
+
+---
+
+## Dateien hinzufügen
+
+    touch index.html
+    git add index.html
+    
+    git status
+
+
+----
+
+![](https://hmd.hmnd.de/uploads/upload_fe1f4718b455b96d5f892f4c9e2fbfee.png)
+
+
+---
+
+## Dateien versionieren
+
+    git commit -m "create index.html"
+
+----
+
+![](https://hmd.hmnd.de/uploads/upload_a36eb591bc576533708de44728775155.png)
+
+
+---
+
+## Log einsehen
+
+    git log
+
+----
+
+![](https://hmd.hmnd.de/uploads/upload_fdd3272c26e6ae23053120c7b840dc0f.png)
+
+----
+
+![](https://hmd.hmnd.de/uploads/upload_04a1054d80534d66f4bdeb3519f884c3.png)
+
+----
+
+![](https://hmd.hmnd.de/uploads/upload_8427a075cba89c44b3f816581031e161.png)
+
+----
+
+## Log für eine bestimmte Datei
+
+    git log <<filename>>
+
+----
+
+![](https://hmd.hmnd.de/uploads/upload_a6bec07aad2c5b4538632a3c86d09510.png)
+
+
+---
+
+## Oh my git
+
+    https://blinry.itch.io/oh-my-git
+
+## Oh shit, git
+
+    https://ohshitgit.com/
+
+
+---
+
+## GitHub
+
+----
+
+    https://github.com
+    
+    ![](https://hmd.hmnd.de/uploads/upload_a2ae39c6a7f66fde85c9d758d06f31bf.png)
+
+----
+
+### Profile
+
+![](https://hmd.hmnd.de/uploads/upload_b20c837af58274cf09fcf9f6f4f26f74.png)
+
+----
+
+### Repositories
+
+![](https://hmd.hmnd.de/uploads/upload_ec2c234e1d7773e8de96050c9f495c0b.png)
+
+
+----
+
+    git remote add origin git@github.com:User/UserRepo.git
+
